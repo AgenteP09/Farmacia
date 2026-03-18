@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Registro de Farmacia</h1>
+  <form (submit)="enviarDatos($event)">
+    <input type="text" id="nombre" placeholder="Nombre del producto" required>
+    <input type="number" id="precio" placeholder="Precio" required>
+    <button type="submit">Guardar en Firebase</button>
+  </form>
+
+  <div id="mensaje" style="display:none; color: green; margin-top: 10px;">
+    ¡Datos guardados con éxito!
+  </div>
+</div>

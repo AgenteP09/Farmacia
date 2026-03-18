@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist\\FarmaciaJuan\\browser",
+    "public": "dist/FarmaciaJuan/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
