@@ -5,7 +5,7 @@ class Conexion{
     private $servidor="127.0.0.1";
     private $base="farmacia";
     private $usuario="root";
-    private $pass= "rootJuan25z#";
+    private $pass= "root";
     public $enlace=null;
 
 public function contarClientes($condicion = null) {
